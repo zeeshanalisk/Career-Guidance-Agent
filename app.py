@@ -9,6 +9,25 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.markdown("""
+<style>
+header[data-testid="stHeader"] {
+    display: none;
+}
+
+[data-testid="stToolbar"] {
+    display: none;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.title("🎯 InterviewAce AI")
 st.caption("Agentic Interview Preparation Assistant powered by IBM Granite")
