@@ -24,7 +24,19 @@ header[data-testid="stHeader"] {
 }
 
 footer {
-    visibility: hidden;
+    display: none !important;
+}
+
+[data-testid="stStatusWidget"] {
+    display: none !important;
+}
+
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+div[class*="stStatusWidget"] {
+    display: none !important;
 }
 </style>
 """, unsafe_allow_html=True)
