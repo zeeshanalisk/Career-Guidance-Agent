@@ -306,5 +306,5 @@ Interests:
 st.markdown("---")
 
 st.caption(
-    "🚀 Powered by IBM Granite | IBM watsonx.ai | Streamlit | EDUNET Foundation Internship Project"
+    "🚀 Powered by IBM Granite | IBM watsonx.ai | Streamlit | AIML"
 )
